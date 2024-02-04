@@ -57,6 +57,7 @@ def result_figure(wealth_with_insurance, wealth_without_insurance):
     return fig
 
 app = Dash(__name__)
+server = app.server
 
 app.layout = html.Div([
     dcc.Markdown('''
